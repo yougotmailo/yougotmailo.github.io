@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yougotmailo</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 30px 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+
+      /* Background behind the blue middle panel */
+      background-color: #151515;
+      background-image: url("pics/bg.png");
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    main {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 25px;
+
+      /* Change this color to change the blue middle */
+      background-color: #2159b5;
+      border: 1px solid #112f64;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .intro {
+      margin: 0 0 25px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .site {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .site img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      background-color: #163d7d;
+      border: 1px solid #102c5d;
+    }
+
+    .site span {
+      display: block;
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .site:hover span {
+      text-decoration: underline;
+    }
+
+    .site:focus-visible {
+      outline: 3px solid white;
+      outline-offset: 5px;
+    }
+
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      main {
+        padding: 18px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>yougotmailo</h1>
+    <p class="intro">my sites / archives</p>
+
+    <div class="grid">
+      <a class="site"
+         href="https://tctrackeruploader.github.io/rocky-and-tyler-tour/">
+        <img src="pics/rocky-and-tyler.png"
+             alt="Rocky and Tyler Tour">
+        <span>rocky and tyler tour</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/imeemtyler2008/">
+        <img src="pics/imeem.png"
+             alt="Tyler, The Creator's imeem">
+        <span>imeem tyler 2008</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/freeperm/">
+        <img src="pics/freeperm.png"
+             alt="Freeperm Archive">
+        <span>freeperm</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/oddfuture_music/">
+        <img src="pics/oddfuture.png"
+             alt="Odd Future Music">
+        <span>odd future music</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/superdupersteezmonster/">
+        <img src="pics/superdupersteezmonster.png"
+             alt="SuperDuperSteezMonster Playlist">
+        <span>superdupersteezmonster</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/geometrydashccdat/">
+        <img src="pics/geometrydash.png"
+             alt="Geometry Dash Save File Editor">
+        <span>geometry dash ccdat</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/cod4-tracker/">
+        <img src="pics/cod4.png"
+             alt="Call of Duty 4 Tracker">
+        <span>cod4 tracker</span>
+      </a>
+
+      <a class="site"
+         href="https://tctrackeruploader.github.io/formspringarchive/">
+        <img src="pics/formspring.png"
+             alt="Formspring Archive">
+        <span>formspring archive</span>
+      </a>
+    </div>
+
+    <footer>yougotmailo</footer>
+  </main>
+</body>
+</html>
