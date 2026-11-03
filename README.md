@@ -1,5 +1,5 @@
 its my homepage lol
 
-https://tctrackeruploader.github.io
+https://yougotmailo.github.io
 
 have fun
